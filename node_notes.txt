@@ -1,0 +1,42 @@
+https://www.youtube.com/watch?v=4P1-JwZF0Vo
+
+
+
+node provides missing peices
+
+	-filesystem
+	-node package manager npm
+	-drivers for database
+	-sql server
+
+
+
+
+- Express minimal framework.
+
+- Use NPM package manager.
+
+- root package.json contains package dependacies. 'NPM init' generates this. Use the --save flag to install dependanies and add to the package file.
+
+
+
+MIDDLEWEAR
+
+- Connect 
+	- Express
+
+- use view engine Jade / Exjs
+
+
+2. Event loop
+
+	- Node provides one as part of language
+	- Loop starts when you start node and dosent end until last call back is complete
+	- Runs unders a single thread...sleep() makes everything wait.
+
+
+
+3. Blocking I/O
+
+	- File system reads (read out the buffer)
+
